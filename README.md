@@ -13,4 +13,4 @@ A aplicação é feita em **HTML, CSS e JavaScript** e roda diretamente no naveg
 ## Instalação e Uso
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
+   git clone https://github.com/j4yh4ck3r/Calculadora_De_Ganhos_e_Gastos.git
