@@ -1,0 +1,97 @@
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+#titulo {
+    text-align: center;
+}
+
+.caixaDeValidacao {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px #000;
+}
+
+.caixaDeValidacaoVerde {
+    background-color: #2be406;
+    border-radius: 9px;
+}
+
+.caixaDeValidacaoRed {
+    background-color: #e40606;
+    border-radius: 9px;
+}
+
+.caixaDeValidacao input {
+    border: none;
+    border-radius: 9px;
+    height: 25px;
+    font-size: 20px;
+    margin: 10px;
+    width: 50%;
+}
+
+.caixaDeValidacao button {
+    border: none;
+    border-radius: 7px;
+    height: 25px;
+    width: 50%;
+    cursor: pointer;
+}
+
+#btnGanhos:hover {
+    background-color: #5aec05;
+    border: #20eb05;
+    color: #FFF;
+}
+
+#btnGastos:hover {
+    background-color: #eb1f1f;
+    border: #eb0d05;
+    color: #FFF;
+}
+
+.caixaDeInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixaDeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CaixaDeTabelas {
+    display: flex;
+    justify-content: center;
+}
+
+.CaixaDeTabelas table {
+    box-shadow: 4px 4px 10px #000;
+    border-radius: 9px;
+}
+
+.CaixaDeTabelas .tabelaDeGanhos {
+    border: 1px solid #2be406;
+    display: flex;
+}
+
+.CaixaDeTabelas .tabelaDeGastos {
+    border: 1px solid #e40606;
+    display: flex;
+}

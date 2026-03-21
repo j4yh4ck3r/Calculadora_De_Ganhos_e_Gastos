@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+    <title>Calculadora de Ganhos e Gastos</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <h3 id="titulo">Calculadora de Ganhos e Gastos</h3>
+            <div class="caixaDeValidacao caixaDeValidacaoVerde">
+                <div class="caixaDeInput">
+                    <input type="number" min="1" placeholder="Vendas" id="Vendas">
+                    <input type="number" min="1" placeholder="Preços" id="Precos">
+                </div>
+                <div class="caixaDeBtn">
+                    <button id="btnGanhos">Calcular Ganhos</button>
+                </div>
+            </div>
+        </form>
+        <div class="CaixaDeTabelas">
+            <table class="tabelaDeGanhos">
+                <thead>
+                    <tr class="TR1"></tr>
+                </thead>
+                <tbody>
+                    <tr class="TR2"></tr>
+                </tbody>
+            </table>
+        </div>
+        <form>
+            <div class="caixaDeValidacao caixaDeValidacaoRed">
+                <div class="caixaDeInput">
+                    <input type="number" min="1" placeholder="Gastos" id="Gastos" disabled>
+                </div>
+                <div class="caixaDeBtn">
+                    <button id="btnGastos" disabled>Calcular Gastos</button>
+                </div>
+            </div>
+        </form>
+        <div class="CaixaDeTabelas">
+            <table class="tabelaDeGastos">
+                <thead>
+                    <tr class="TR3"></tr>
+                </thead>
+                <tbody>
+                    <tr class="TR4"></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script type="module" src="./scriptPrincipal.js"></script>
+</body>
+
+</html>
