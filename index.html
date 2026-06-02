@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="https://www.msn.com/pt-br/clima/forecast/in-Juiz-de-Fora,Minas-Gerais?loc=eyJsIjoiSnVpeiBkZSBGb3JhIiwiciI6Ik1pbmFzIEdlcmFpcyIsImMiOiJCcmFzaWwiLCJpIjoiQlIiLCJnIjoicHQtYnIiLCJ4IjotNDMuNDEwMzAxMjA4NDk2MDk0LCJ5IjotMjEuNzEwMzk5NjI3Njg1NTQ3fQ%3D%3D&weadegreetype=C&ocid=winp1taskbar&cvid=786b6da38e1741458f885e9165324140&content=NowcastNearBy_wxnn&ei=8" target="_blank"><img src="./img/Previsao.png" alt="Previsão do tempo"></a>
+        </nav>
+    </header>
     <main>
         <form>
             <h3 id="titulo">Calculadora de Ganhos e Gastos</h3>
@@ -25,15 +30,40 @@
                 </div>
             </div>
         </form>
-        <div class="CaixaDeTabelas">
-            <table class="tabelaDeGanhos">
-                <thead>
-                    <tr class="TR1"></tr>
-                </thead>
-                <tbody>
-                    <tr class="TR2"></tr>
-                </tbody>
-            </table>
+        <div id="TabelaDoGanhos">
+            <div class="CaixaDeTabelas">
+                <h3>Valores do dia com alteração de preço</h3>
+                <table class="tabelaDeGanhos">
+                    <thead>
+                        <tr class="TR1"></tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TR2"></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="CaixaDeTabelas">
+                <h3>Valor semanal sem alteração do preço</h3>
+                <table class="tabelaDaSemana">
+                    <thead>
+                        <tr class="SemanaTr1"></tr>
+                    </thead>
+                    <tbody>
+                        <tr class="SemanaTr2"></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="CaixaDeTabelas">
+                <h3>Valor mensal sem alteração do preço</h3>
+                <table class="tabelaDoMes">
+                    <thead>
+                        <tr class="MesTr1"></tr>
+                    </thead>
+                    <tbody>
+                        <tr class="MesTr2"></tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <form>
             <div class="caixaDeValidacao caixaDeValidacaoRed">

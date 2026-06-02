@@ -5,10 +5,6 @@ export default class SomaDados {
         this.Objeto = {Resutado: 0}
     }
 
-    GuardaDados() {
-        return this.Lista;
-    }
-
     SomaTodosDados() {
         const resutado = this.Flat.reduce((a, b) => a + b);
         Object.seal(this.Objeto);

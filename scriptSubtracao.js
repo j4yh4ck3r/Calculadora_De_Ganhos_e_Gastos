@@ -1,16 +1,16 @@
 export default class Subtracao {
-    constructor(lista, Ganhos) {
+    constructor(lista, saldo) {
         this.lista = lista;
-        this.Ganhos = Ganhos;
+        this.Saldo = saldo;
     }
 
     subtrairValoDaLista() {
-        let valor = this.Ganhos;
+        let SALDO = this.Saldo;
         this.lista.forEach(list => {
-            let resultado = valor - list;
-            valor = resultado;
-            console.log(valor.toFixed(2));
+            let resultado = SALDO - list;
+            SALDO = resultado;
+            console.log(SALDO.toFixed(2));
         });
-        return valor.toFixed(2);
+        return SALDO.toFixed(2);
     }
 }
